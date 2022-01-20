@@ -1,0 +1,279 @@
+.btn .caret {
+    color: #018FFC;
+}
+
+.btn-wfp {
+    outline: none !important;
+    border-radius: 8px;
+    margin: 0 4px;
+}
+
+.btn-primary {
+    font-weight: 400;
+    line-height: 1.4;
+    background: #018FFC;
+    border-color: #018FFC;
+    padding: 20px 36px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-wfp.btn-primary:hover,
+.btn-wfp.btn-primary:focus,
+.btn-wfp.btn-primary:active {
+    background: #0883e1 !important;
+    border-color: #0883e1  !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.btn-wfp:active {
+    transform: scale(.96);
+}
+
+
+.btn-wfp.btn-cancel {
+    background: transparent !important;
+    border: none !important;
+    color: #337ab7 !important;
+    box-shadow: none !important;
+    text-decoration: underline;
+    font-size: inherit;
+}
+.btn-wfp.btn-cancel:hover,
+.btn-wfp.btn-cancel:focus,
+.btn-wfp.btn-cancel:active {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.form-subactions {
+    padding: 12px 0 0;
+    text-align: center;
+}
+
+.btn-wfp.btn-normal {
+    background: #018FFC;
+    border-radius: 8px;
+    border: 2px solid #018FFC !important;
+    color: white;
+    min-width: 200px;
+    padding: 10px 20px;
+}
+
+.btn-wfp.btn-normal:hover,
+.btn-wfp.btn-normal:focus,
+.btn-wfp.btn-normal:active {
+    background: #23a0f3 !important;
+    color: white !important;
+    border: 2px solid #23a0f3 !important;
+    box-shadow: none !important;
+}
+
+.btn-wfp.btn-slave {
+    font-weight: 400;
+    background: transparent !important;
+    border: 1px solid #0883e1 !important;
+    color: #0883e1 !important;
+    box-shadow: none !important;
+    border-radius: 4px;
+    padding: 8px 30px;
+    font-size: 14px;
+    min-width: 140px;
+}
+
+.btn-wfp.btn-slave:hover,
+.btn-wfp.btn-slave:focus,
+.btn-wfp.btn-slave:active {
+    background: #0883e1 !important;
+    color: white !important;
+    border: 1px solid #0883e1 !important;
+    box-shadow: none !important;
+}
+
+.btn-wfp.btn-small {
+    font-size: 12px;
+    padding: 8px 20px;
+}
+
+.input-group .input-group-btn .btn {
+    min-width: 50px;
+    margin-left: 8px;
+    border-radius: 4px;
+}
+
+
+/* action buttons
+-------------------------------------------------- */
+@media (max-width: 480px) {
+    .mode-mobile .form-actions {
+        margin: 8px 0 0;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 60px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    .btn-wfp {
+        border-radius: 0;
+    }
+    .mode-mobile .form-actions .btn-wfp {
+        margin: 0;
+    }
+}
+
+.form-actions {
+    margin: 0;
+    padding: 20px 0 0;
+}
+
+/* pay buttons (google, apple)
+-------------------------------------------------- */
+.pay-buttons {
+    table-layout: fixed;
+}
+
+.pay-buttons.show-a.show-g .btn-wfp.inline {
+    width: 40%;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.pay-buttons.show-a.show-g .btn-wfp.inline .caption {
+    display: none;
+}
+
+.pay-button-delimiter {
+    border-bottom: 2px dashed #eee;
+    margin: 6px 18px 6px;
+    text-align: center;
+    color: #777;
+    font-size: 12px;
+    position: relative;
+}
+
+.pay-button-delimiter .caption {
+    display: inline-block;
+    position: absolute;
+    margin-top: -8px;
+    background: white;
+    padding: 0 8px;
+    left: 45%;
+}
+
+.pay-buttons .btn-wfp {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px !important;
+    border-radius: 5px;
+
+    background: black !important;
+    color: white !important;
+    border: none;/* 1px solid black !important;*/
+    font-weight: 400;
+    font-size: 14px;
+    padding: 16px 20px;
+    height: 40px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.pay-buttons .btn-wfp img {
+    height: 18px;
+    padding-left: 4px;
+}
+
+.pay-buttons .btn-wfp:hover {
+    background: #333333 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.pay-button-wrapper {
+    width: 48%;
+    margin: 0 auto;
+    padding: 0 8px;
+    display: inline-block;
+}
+
+.pay-buttons .btn-wfp.inline {
+    width: 90%;
+    max-width: 300px;
+    display: inline-block;
+    margin: 0 0 12px;
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+.pay-buttons .btn-wfp.inline .caption {
+    /*display: none;*/
+}
+
+.pay-buttons .btn-wfp.inline .btn-inner {
+    background: #000000;
+    border-radius: 5px;
+    padding: 10px 20px !important;
+    display: block;
+}
+
+.pay-buttons .btn-wfp.inline.single {
+    width: 100%;
+    max-width: 260px;
+}
+
+.pay-buttons .btn-wfp.inline.single .caption {
+    display: inline-block;
+}
+
+.pay-buttons .btn-wfp[disabled] {
+    box-shadow: none !important;
+}
+
+.pay-buttons .btn-wfp[disabled] .btn-inner {
+    opacity: 0;
+}
+
+.pay-buttons .gpay-card-info-container {
+    border-radius: 5px;
+}
+
+
+
+/* pay button (installments group)
+-------------------------------------------------- */
+.pay-buttons .btn-wfp.btn-install {
+    background: white !important;
+    color: #333333;
+}
+
+.pay-buttons .btn-wfp.btn-install img {
+    height: 23px;
+    padding: 0;
+}
+
+.pay-buttons .btn-wfp.btn-install .btn-inner .caption {
+    margin-right: 4px;
+}
+
+.pay-buttons .btn-wfp.inline.btn-install .btn-inner {
+    background: transparent !important;
+    color: #333333 !important;
+}
+
+
+
+
+.pay-buttons .btn-wfp.btn-normal {
+    background: #018FFC !important;
+    color: white;
+}
+
+.pay-buttons .btn-wfp.btn-normal:hover {
+    background: #0883e1 !important;
+    color: white;
+}
+
+.pay-buttons .btn-wfp.inline.btn-normal .btn-inner {
+    background: transparent !important;
+}
