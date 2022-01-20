@@ -1,0 +1,454 @@
+/* errors
+-------------------------------------------------- */
+.has-error .control-label,
+.has-error .control-sublabel {
+    color: #de2d03;
+}
+
+.has-error .help-block {
+    display: none;
+    color: #de2d03;
+    font-size: 10px;
+}
+
+
+.tokenize-text {
+    background: #eceff3; /*#def8ff*/;
+    color: #444;
+    border-color: #afb2b7;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.form-control-otp {
+    font-size: 20px;
+    border: none;
+    box-shadow: none !important;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.buttons-panel {
+    margin-bottom:20px;
+}
+
+/* free amount
+-------------------------------------------------- */
+.input-amount-group {
+    /*padding-top: 8px !important;*/
+}
+
+.pay-form-info .form-control.input-amount {
+    font-weight: 600;
+    font-size: 24px;
+    color: #018FFC;
+}
+
+/* tokens
+-------------------------------------------------- */
+.tokenize .control-label[for="cardpay-cardnumber"] {
+    display: none;
+}
+
+.tokenize .card-number-wrapper.long {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.tokenize .row-card-validity,
+.tokenize .row-card-holder {
+    display: none;
+}
+
+.tokenize-text {
+    background: transparent !important;
+}
+
+.btn-untokenize, .btn-currency {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.tokenize .card-number-wrapper {
+    padding-left: 26px !important;
+    width: 100%;
+}
+
+.tokenize .card-number-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tokenize .card-number-wrapper.visa:before {
+    background-image: url('/img/card/token-visa.png');
+}
+.tokenize .card-number-wrapper.master:before {
+    background-image: url('/img/card/token-master.png');
+}
+.card-number-wrapper .change {
+    color: #018FFC;
+    font-weight: 400;
+    font-size: 12px;
+    vertical-align: middle;
+    padding-right: 0;
+    padding-left: 4px;
+    box-shadow: none !important;
+}
+
+.tokenize .card-number-wrapper .dropdown-menu li a {
+    padding-top: 6px;
+    /*height: 38px;*/
+    padding-left: 47px;
+    position: relative;
+}
+
+.card-number-wrapper .field-card-token {
+    height: 42px;
+}
+
+.card-number-wrapper .field-card-token small,
+.card-number-wrapper .dropdown-menu li a small {
+    font-size: 10px;
+    display: block;
+    color: #777;
+    padding-top: 2px;
+}
+
+
+
+.tokenize .card-number-wrapper .dropdown-menu li.active a {
+    background: transparent;
+}
+
+.tokenize .card-number-wrapper .dropdown-menu li a .icon {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 20px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tokenize .card-number-wrapper .dropdown-menu li a.visa .icon {
+    background-image: url('/img/card/token-visa.png');
+}
+
+.tokenize .card-number-wrapper .dropdown-menu li a.master .icon {
+    background-image: url('/img/card/token-master.png');
+}
+
+.tokenize .card-number-wrapper .dropdown-menu li:not(:last-child) a {
+    padding-bottom: 6px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+.tokenize .card-number-wrapper .dropdown-menu .divider {
+    background: transparent;
+    height: 8px;
+    margin: 0;
+}
+
+.tokenize .card-number-wrapper .dropdown-menu li.active a {
+    color: #333;
+}
+
+.tokenize .card-number-wrapper .dropdown-menu li a.token-choose-item:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    font-size: 22px;
+    color: #aaa;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    border: 1px solid #aaa;
+}
+
+.tokenize .row.form-group.row-card-number:hover,
+.tokenize .row.form-group.row-card-number:focus {
+    background: transparent !important;
+}
+
+.tokenize .card-number-wrapper .dropdown-menu li.active a.token-choose-item:after {
+    content: '';
+    background: #018FFC;
+}
+
+.tokenize .card-number-wrapper .dropdown-menu li a.token-show-doubt,
+.tokenize .card-number-wrapper .dropdown-menu li a.token-clear-input {
+    font-weight: 800;
+    font-size: 12px;
+    text-align: center;
+    color: #018FFC;
+    padding: 12px 20px;
+}
+
+.tokenize .card-number-wrapper .dropdown-menu li a.token-show-doubt {
+    font-weight: 600;
+}
+
+
+
+
+/* btc price info
+-------------------------------------------------- */
+.price-info {
+    margin: 8px 0 20px;
+}
+.price-info .price-amount {
+    font-weight: 800;
+    color: #28324E;
+    font-size: 22px;
+    line-height: 16px;
+
+}
+.price-info .price-base {
+    font-size: 22px;
+    line-height: 16px;
+}
+
+/* alter method info
+-------------------------------------------------- */
+.row.row-remark {
+    padding: 20px 0 30px;
+    font-size: 12px;
+    color: #777;
+}
+
+.row.row-remark img {
+    width: 64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row-remark .col-left {
+    display: none;
+}
+.row-remark .col-right {
+    width: 100%;
+}
+
+/* delivery form
+-------------------------------------------------- */
+.delivery-form {
+    /*padding: 0 0 12px;*/
+}
+
+
+/* form doubt
+-------------------------------------------------- */
+.form-doubt {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.form-doubt .field-otp-code {
+    width: 156px;
+    display: table-cell;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.form-doubt .control-label {
+    display: block;
+}
+
+.form-doubt .help-block {
+    position: relative;
+}
+
+.form-doubt .form-group {
+    margin: 20px auto 10px;
+    max-width: 200px;
+}
+
+/* form finid
+-------------------------------------------------- */
+.form-finid .form-group {
+    max-width: 200px;
+    margin: 0 auto 20px;
+}
+
+/* regular form
+-------------------------------------------------- */
+.regular-data-title {
+    padding-bottom: 8px;
+}
+
+/* visa checkout form
+-------------------------------------------------- */
+.v-learn.v-learn-default {
+    font-weight: 400;
+}
+
+/* master pass form
+-------------------------------------------------- */
+.list-tokens {
+    /*margin-bottom: 12px;*/
+    /*margin: 0 20px;*/
+}
+.list-tokens .token {
+    padding: 4px 8px;
+}
+.list-tokens .token:hover {
+    background: #f5f5f5;
+}
+.list-tokens label .number {
+
+}
+.list-tokens label .name {
+    display: block;
+    font-size: 10px;
+    color: #999;
+}
+/*.list-tokens .token .masterpass-token {
+    margin-top: 10px;
+}*/
+.list-tokens .token .masterpass-token-delete {
+    margin-top: 10px;
+}
+.list-tokens .token label .glyphicon {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 4px;
+    vertical-align: top;
+    color: #ccc;
+    /*display: none;*/
+}
+.list-tokens .token label .info {
+    display: inline-block;
+    position: relative;
+    /*padding-left: 32px;*/
+}
+
+.list-tokens .token label .info .icon {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 1px;
+    width: 20px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.list-tokens .token label .info .icon.visa {
+    background-image: url('/img/card/token-visa.png');
+}
+
+.list-tokens .token label .info .icon.master {
+    background-image: url('/img/card/token-master.png');
+}
+
+.list-tokens h4 {
+    /*font-family: 'os-semibold';*/
+    margin-bottom:30px;
+}
+#masterpass-modal-delete .mask {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* modals
+-------------------------------------------------- */
+
+.modal-dialog {
+    min-width: 320px;
+}
+.modal-dialog .modal-content {
+    padding-bottom: 20px;
+}
+.modal-dialog .btn-wfp {
+    width: auto;
+    border-radius: 4px;
+}
+.modal-dialog .mask {
+    color: #000;
+}
+
+
+/* progress by steps
+-------------------------------------------------- */
+.progress-step {
+    list-style: none;
+    margin: 12px 0 20px;
+    padding: 0;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.progress-step > li {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    font-size: 9px;
+    font-family: 'os-bold';
+    color: #ccc;
+    text-transform: uppercase;
+}
+
+.progress-step > li:before {
+    content: attr(data-step);
+    display: block;
+    margin: 0 auto 8px;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 100%;
+    border: 2px solid #2691f9;
+    background: #fafafa;
+    color: #777;
+    position: relative;
+    z-index: 1000;
+}
+.progress-step > li:after {
+    content: '';
+    position: absolute;
+    display: block;
+    /*background: #ccc;*/
+    border-top: 2px dotted #ccc;
+    width: 100%;
+    height: 0.5em;
+    top: 1.45em;
+    left: 50%;
+    margin-left: 3px;
+    z-index: -1;
+}
+.progress-step > li.active {
+    color: #777;
+}
+/*.progress-step > li.complete {
+    color: #ccc;
+}*/
+.progress-step > li.complete:before {
+    content: '✔';
+    color: white;
+    background: #2691f9;
+}
+/**
+ * Needed for IE8
+ */
+.progress-step > li.last:after {
+    display: none!important;
+}
