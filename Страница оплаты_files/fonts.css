@@ -1,0 +1,62 @@
+/*@font-face {
+    font-family: 'os-bold';
+    src: url('/fonts/os/OpenSansBold/OpenSansBold.eot');
+    src: url('/fonts/os/OpenSansBold/OpenSansBold.eot?#iefix') format('embedded-opentype'), url('/fonts/os/OpenSansBold/OpenSansBold.woff') format('woff'), url('/fonts/os/OpenSansBold/OpenSansBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'os-semibold';
+    src: url('/fonts/os/OpenSansSemiBold/OpenSansSemiBold.eot');
+    src: url('/fonts/os/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix') format('embedded-opentype'), url('/fonts/os/OpenSansSemiBold/OpenSansSemiBold.woff') format('woff'), url('/fonts/os/OpenSansSemiBold/OpenSansSemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'os-light';
+    src: url('/fonts/os/OpenSansLight/OpenSansLight.eot');
+    src: url('/fonts/os/OpenSansLight/OpenSansLight.eot?#iefix') format('embedded-opentype'), url('/fonts/os/OpenSansLight/OpenSansLight.woff') format('woff'), url('/fonts/os/OpenSansLight/OpenSansLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'os-regular';
+    src: url('/fonts/os/OpenSansRegular/OpenSansRegular.eot');
+    src: url('/fonts/os/OpenSansRegular/OpenSansRegular.eot?#iefix') format('embedded-opentype'), url('/fonts/os/OpenSansRegular/OpenSansRegular.woff') format('woff'), url('/fonts/os/OpenSansRegular/OpenSansRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'os-italic';
+    src: url('/fonts/os/OpenSansItalic/OpenSansItalic.eot');
+    src: url('/fonts/os/OpenSansItalic/OpenSansItalic.eot?#iefix') format('embedded-opentype'), url('/fonts/os/OpenSansItalic/OpenSansItalic.woff') format('woff'), url('/fonts/os/OpenSansItalic/OpenSansItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+label {
+    font-weight: 300;
+}
+.btn {
+    font-weight: 600;
+}
+.has-error .help-block {
+    font-weight: 600;
+}
+.price {
+    font-weight: 800;
+}
+.view-bold {
+    font-weight: 800;
+}
+.title {
+    font-weight: 600;
+}

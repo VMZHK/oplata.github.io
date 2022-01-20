@@ -1,0 +1,117 @@
+.footer {
+    background: transparent;
+    height: 54px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer .footer-delimiter {
+    display: none;
+}
+
+.footer .logo {
+    margin-top: 15px;
+    float: left;
+    width: 130px;
+    height: 30px;
+    background: transparent url('/img/logo-footer.png') no-repeat center;
+    background-size: contain;
+}
+
+.footer .contacts {
+    float: right;
+}
+
+.footer .support,
+.footer .contacts {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    margin-top: 11px;
+    padding: 0 10px 0 0;
+}
+
+.footer .contacts a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.footer .contacts a img {
+    width: 30px;
+}
+
+.footer .support {
+    float: left;
+    margin-left: 8px;
+    border-left: 1px solid lightslategray;
+    padding-left: 8px;
+    text-align: left;
+}
+
+.footer .support a {
+    color: #d4d6d9;
+}
+
+.footer .lang {
+    float: right;
+    position: relative;
+    margin-top: 12px;
+    width: 90px;
+}
+
+.footer .select-wrapper:before {
+    color: white;
+}
+
+.footer .nav-lang-selector {
+    border: none;
+    background: transparent;
+    color: #777;
+    font-size: 12px;
+    outline: none !important;
+    margin-left: 5px;
+    padding: 0 20px 0 0;
+    height: 30px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.footer .nav-lang-caret {
+    color: #777;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    font-size: 80%;
+}
+
+@media (max-width: 480px) {
+    .footer .support {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer .logo {
+        width: 110px;
+    }
+
+    .footer .lang {
+        width: 80px;
+    }
+
+    .footer .contacts a img {
+        width: 24px;
+    }
+
+    .footer .contacts {
+        margin-top: 16px;
+    }
+}
